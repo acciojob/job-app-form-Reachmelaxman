@@ -10,6 +10,58 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	    <form method="post">
+
+        <div>
+            <lable for="Name">Name</lable>
+        <input type="text" name="name" id="name" placeholder="Enter your Name" required><br>
+        </div>
+
+        <div>
+            <lable for="Email">Email</lable>
+        <input type="Email" name="Email" id="Email" required><br>
+        </div>
+
+        <div>
+        <lable for="gender" required>Gender</lable><br>
+        <input type="radio" value="Male" name="gender" id="gender">Male<br>
+       <input type="radio" value="Female" name="gender" id="gender">Female<br>
+        </div>
+
+        <div>
+            <lable for="Laptop" >Laptop Brands : </lable>
+            <select >
+                <option value="Laptop Brands" name="Laptop" id="laptop" disabled selected>Laptop Brands</option>
+                <option > Apple</option>
+                <option>Asus</option>
+                <option>HP</option>
+
+            </select>
+            <br>
+        </div>
+        <div>
+            <lable for="age">Age</lable>
+            <input type="number" name="age" id="age" required><br>
+        </div>
+
+        <div>
+            <lable for="Dob">DOB</lable>
+            <input type="date" name="dob" id="dob" required><br>
+        </div>
+        <div>
+            <lable for="password">Password</lable>
+            <input type="password" name="password" id="password" required><br>
+        </div>
+        <div>
+           <lable for="portfolio"> Share your portfolio below:</lable><br>
+           <input type="text" name="portfolio" id="portfolio">
+        </div>
+            <div>
+                <button>
+                    submit
+                </button>
+            </div>        
+    </form>
 
 </body>
 
